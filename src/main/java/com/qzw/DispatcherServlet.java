@@ -25,8 +25,6 @@ import java.util.*;
  * @date 2019/4/29
  */
 public class DispatcherServlet extends HttpServlet {
-
-
     private Properties properties;
     private List<String> classNames = new ArrayList<>();
     private Map<String, Object> iocContainer = new HashMap<>();
